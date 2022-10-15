@@ -1,0 +1,180 @@
+.parent{
+    height: 500px;
+    width: 500px;
+    margin: 150px auto;
+    position:relative;
+    animation-name: abc;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes abc {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.br1{
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.br2{
+    border-top-left-radius:250px ;
+    border-bottom-right-radius:250px;
+}
+.child{
+    height: 250px;
+    width: 250px; 
+}
+div.parent > div.child1{
+    
+  
+    
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+}
+.child2{
+    
+    position:absolute;
+    top: 0px;
+    
+}
+.child3{
+  
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.child4{
+    /* background: blue; */
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+.child5{
+    background: Crimson;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: right bottom;
+    transform:rotate(12deg)
+}
+.child6{
+    background: Aqua;
+    transform:rotate(24deg)
+}
+.child7{
+    background: Chartreuse;
+    transform:rotate(36deg)
+}
+.child8{
+    background: Chocolate;
+    transform:rotate(44deg)
+}
+.child9{
+    background: rgb(144, 17, 28);
+    transform:rotate(60deg)
+}
+.child10{
+    background: rgb(21, 213, 95);
+    transform:rotate(72deg)
+}
+.child11{
+    background: rgb(219, 177, 28);
+    transform:rotate(84deg)
+}
+.child12{
+    background: rgb(198, 60, 194);
+    transform:rotate(96deg)
+}
+.child13{
+    background: rgb(234, 69, 86);
+    transform:rotate(108deg)
+}
+.child14{
+    background: rgb(11, 97, 4);
+    transform:rotate(120deg)
+}
+.child15{
+    background: rgb(32, 209, 44);
+    transform:rotate(132deg)
+}
+.child16{
+    background: rgb(159, 131, 131);
+    transform:rotate(144deg)
+}
+.child17{
+    background: rgb(58, 107, 240);
+    transform:rotate(156deg)
+}
+.child18{
+    background: rgb(57, 1, 30);
+    transform:rotate(168deg)
+}
+.child19{
+    background: rgb(13, 236, 198);
+    transform:rotate(180deg)
+}
+.child20{
+    background: rgb(42, 38, 93);
+    transform:rotate(192deg)
+}
+.child21{
+    background: rgb(109, 13, 138);
+    transform:rotate(204deg)
+}
+.child22{
+    background: rgb(101, 37, 37);
+    transform:rotate(216deg)
+}
+.child23{
+    background: rgb(61, 219, 21);
+    transform:rotate(224deg)
+}
+.child24{
+    background: rgb(185, 197, 16);
+    transform:rotate(240deg)
+}
+.child25{
+    background: rgb(34, 138, 167);
+    transform:rotate(252deg)
+}
+.child26{
+    background: rgb(226, 153, 26);
+    transform:rotate(264deg)
+}
+.child27{
+    background: rgb(165, 190, 161);
+    transform:rotate(276deg)
+}
+.child28{
+    background: rgb(3, 73, 129);
+    transform:rotate(288deg)
+}
+.child29{
+    background: rgb(241, 22, 212);
+    transform:rotate(300deg)
+}
+.child30{
+    background: rgb(158, 50, 50);
+    transform:rotate(312deg)
+}
+.child31{
+    background: rgb(10, 189, 58);
+    transform:rotate(324deg)
+}
+.child32{
+    background: rgb(72, 51, 100);
+    transform:rotate(336deg)
+}
+.child33{
+    background: rgb(250, 6, 6);
+    transform:rotate(348deg)
+}
+.child34{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    transform:rotate(360deg)
+}
